@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Greatvibes: ["Great Vibes", "cursive"],
+        Alice: ["Alice", "serif"],
+        Satisfy: ["Satisfy", "cursive"],
+        Tangerine: ["Tangerine", "cursive"],
       },
     },
   },
