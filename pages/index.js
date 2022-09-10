@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Script from "next/script"
 
 export default function Home() {
@@ -40,7 +41,7 @@ export default function Home() {
       </div>
       <div className="w-full lg:w-5/12 ml-auto">
         <div className="h-screen flex flex-col items-center p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin2.jpg)` }}>
-          <h1 className="text-4xl mb-12 font-Alice">You're Invited !</h1>
+          <h1 className="text-4xl mb-12 font-Alice">You are Invited !</h1>
           <h2 className="text-2xl mb-12 font-Alice">The Wedding of</h2>
           <h1 className="text-6xl mb-52 font-Greatvibes">Leo & Christin</h1>
           <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">Nama Tamu</h1>
