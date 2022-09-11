@@ -13,7 +13,8 @@ import Pickerbnichristin from "../components/Pickerbnichristin";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="relative lg:fixed w-full lg:w-7/12 min-h-screen inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin1.jpg)` }}>
+      <div className="relative lg:fixed lg:w-7/12 min-h-screen sm:w-full inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin1.jpg)` }}>
+
         <div className="snowflakes" aria-hidden="true">
           <div className="snowflake">
           ❅
@@ -46,7 +47,7 @@ export default function Home() {
           ❄
           </div>
         </div>
-        <h1 className="absolute bottom-0 left-0 lg:p-20 text-white text-8xl font-Greatvibes drop-shadow-xl">Leo &<br />Christin</h1>
+        <h1 className="absolute lg:bottom-0 lg:left-0 p-20 text-center text-white text-6xl md:text-8xl font-Greatvibes drop-shadow-xl">Leo &<br /> Christin</h1>
         <div className="absolute top-0 right-0 lg:p-20 text-white text-8xl font-Greatvibes drop-shadow-xl">
           <audio
             autoPlay
@@ -61,7 +62,7 @@ export default function Home() {
         <div className="h-screen flex flex-col items-center p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin2.jpg)` }}>
           <h1 className="text-4xl mb-12 font-Alice">You are Invited !</h1>
           <h2 className="text-2xl mb-12 font-Alice">The Wedding of</h2>
-          <h1 className="md:text-6xl sm:text-4xl mb-52 font-Greatvibes">Leo & Christin</h1>
+          <h1 className="text-4xl md:text-6xl mb-52 font-Greatvibes">Leo & Christin</h1>
           <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">Nama Tamu</h1>
         </div>
 
@@ -74,16 +75,16 @@ export default function Home() {
 
         {/* Pengantin */}
         <div className="min-h-screen flex items-center flex-col p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/bgstory.png)` }} id="pengantin">
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Pengantin</h1>
-          <p className="mx-24 text-green-800 text-center font-Alice">Atas Izin Tuhan Yesus Kristus, Inilah Putra dan Putri kami untuk diberkati kepada Tuhan Yesus Kristus.</p>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800">Pengantin</h1>
+          <p className="md:mx-24 text-green-800 text-center font-Alice">Atas Izin Tuhan Yesus Kristus, Inilah Putra dan Putri kami untuk diberkati kepada Tuhan Yesus Kristus.</p>
           <img src="../images/leo.png" className="w-64 h-auto" alt="Scroll" />
-          <p className="lg:text-6xl sm:text-4xl text-green-800 text-center font-Tangerine">Leo Puji Christyanto Simbolon</p>
+          <p className="text-5xl md:text-6xl text-green-800 text-center font-Tangerine">Leo Puji Christyanto Simbolon</p>
           <p className="sm:text-lg text-green-800 text-center mb-1 font-Alice">Putra Pertama dari Bapak Tambun Simbolon (†) dan Ibu Sri Sulistyowati Sinaga</p>
           <a href="https://www.instagram.com/piyuid/" target="_blank" rel="noreferrer">
             <img src="../images/instagram.png" className="mb-8 w-8 h-auto" alt="Scroll" />
           </a>
           <img src="../images/christin.png" className="w-64 h-auto" alt="Scroll" />
-          <p className="lg:text-6xl sm:text-4xl text-green-800 text-center font-Tangerine">Christin Putri Daly</p>
+          <p className="text-5xl md:text-6xl text-green-800 text-center font-Tangerine">Christin Putri Daly</p>
           <p className="sm:text-lg text-green-800 text-center mb-1 font-Alice">Putri Kedua dari Bapak Sudiyarto (†) dan Ibu Martje Daly</p>
           <a href="https://www.instagram.com/christineputridaly/" target="_blank" rel="noreferrer">
             <img src="../images/instagram.png" className="mb-8 w-8 h-auto" alt="Scroll" />
@@ -92,7 +93,7 @@ export default function Home() {
 
         {/* Menghitung Tanggal */}
         <div className="min-h-max flex items-center flex-col p-10 bg-red-400">
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Menghitung Waktu</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800">Menghitung Waktu</h1>
           <FlipCountdown
             hideYear
             hideMonth
@@ -108,7 +109,7 @@ export default function Home() {
 
         {/* Tanggal */}
         <div className="min-h-max flex items-center flex-col p-10" style={{ backgroundImage: `url(../images/bgdate.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Diselenggarakan</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800">Diselenggarakan</h1>
           <p className="mb-5 mx-10 text-green-800 text-center font-Alice">Kasih diantara kami begitu indah, tetapi dipersatukan untuk lebih mengasihi TUHAN itulah yang terindah, mengundang kehadiran Bapak/Ibu/Saudara(i) untuk berbagi kebahagiaan atas bersatunya kasih indah kami :</p>
           <h2 className="text-green-800 text-center text-4xl font-Oscript">Sabtu</h2>
           <h2 className="mb-1 text-green-800 text-center text-4xl font-Oscript">01 Oktober 2022</h2>
@@ -116,7 +117,7 @@ export default function Home() {
             Simpan Tanggal di Kalender
           </a>
 
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800" id="pemberkatan">Pemberkatan</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800" id="pemberkatan">Pemberkatan</h1>
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Bertempat</h3>
           <h2 className="text-green-800 text-center font-Alice">Gereja GPIB Filadelfia Bintaro</h2>
           <h3 className="mx-10 text-green-800 text-center font-Alice">Jl. Camar XIII No.5, Bintaro, Pondok Aren, South Tangerang City, Banten 15221</h3>
@@ -127,9 +128,9 @@ export default function Home() {
 
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Jam</h3>
           <h3 className="text-green-800 text-center text-2xl font-Oscript">13.00 - 15.00 WIB</h3>
-          <iframe className="mb-10" width="560" height="315" src="https://www.youtube.com/embed/gDi7zcQsDuA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="mb-10 w-auto h-auto" src="https://www.youtube.com/embed/gDi7zcQsDuA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800" id="resepsi">Resepsi</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800" id="resepsi">Resepsi</h1>
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Berlokasi</h3>
           <h2 className="text-green-800 text-center font-Alice">Griya CIMB Niaga 2 - Lt. 2 Foodbank</h2>
           <h3 className="mx-10 text-green-800 text-center font-Alice">Jl. Wahid Hasyim No.3, Pd. Jaya, Kec. Pd. Aren, South Tangerang City, Banten 15224</h3>
@@ -145,7 +146,7 @@ export default function Home() {
 
         {/* Our Story */}
         <div className="min-h-max flex items-center flex-col p-10 bg-cover bg-center" style={{ backgroundImage: `url(../images/bgstory.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Our Story</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800">Our Story</h1>
           <div className="">
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
@@ -215,7 +216,7 @@ export default function Home() {
         </div>
 
         <div className="min-h-max flex items-center flex-col p-10" style={{ backgroundImage: `url(../images/bggallery.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Gallery</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-white drop-shadow-lg sm:text-green-800 sm:drop-shadow-none">Gallery</h1>
           <div className="container items-center">
             <div className="grid overflow-hidden grid-cols-4 grid-rows-12 gap-2">
               <div className="w-full row-span-2 col-span-2">
@@ -274,7 +275,7 @@ export default function Home() {
 
         {/* Kirim Hadiah */}
         <div className="min-h-max flex items-center flex-col p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/bggift.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800" id="saweran">Kirim Hadiah</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800" id="saweran">Kirim Hadiah</h1>
           <h2 className="text-green-800 text-center text-2xl font-Alice font-bold">VIA QRIS</h2>
           <img src="../images/qris.jpg" className="w-1/2 h-auto" alt="Scroll" />
           <h2 className="text-green-800 text-center text-2xl font-Alice font-bold">VIA Banking</h2>
@@ -286,7 +287,7 @@ export default function Home() {
 
         {/* RSVP Tamu Undangan */}
         <div className="min-h-max items-center p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/bgrsvp.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-center text-green-800" id="rsvpdong">Kirim Ucapan</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-center text-green-800" id="rsvpdong">Kirim Ucapan</h1>
           <div id="disqus_thread"></div>
           <Script>
             {`
@@ -313,16 +314,16 @@ export default function Home() {
 
         {/* Protokol Kesehatan */}
         <div className="min-h-max items-center p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/bgprokes.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-center text-green-800">Protokol Kesehatan</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-center text-green-800">Protokol Kesehatan</h1>
           <img src="../images/prokes.png" alt="Scroll" />
                   
         </div>
 
         {/* Footer */}
         <div className="min-h-max flex items-center flex-col p-10" style={{ backgroundImage: `url(../images/bgfooter.png)` }}>
-          <h1 className="md:text-6xl sm:text-4xl mb-5 font-Satisfy text-green-800">Terima Kasih !</h1>
-          <h1 className="md:text-xl sm:text-lg mb-5 font-Alice text-green-800">Development By</h1>
-          <h1 className="md:text-xl sm:text-lg mb-5 font-Alice text-green-800">Leo & Christin - 2022</h1>
+          <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800">Terima Kasih !</h1>
+          <h1 className="text-xl md:text-2xl mb-5 font-Alice text-green-800">Development By</h1>
+          <h1 className="text-xl md:text-2xl mb-5 font-Alice text-green-800">Leo & Christin - 2022</h1>
         </div>
 
       </div>
