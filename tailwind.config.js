@@ -11,6 +11,7 @@ module.exports = {
         Alice: ["Alice", "serif"],
         Satisfy: ["Satisfy", "cursive"],
         Tangerine: ["Tangerine", "cursive"],
+        Oscript: ["Oleo Script Swash Caps", "cursive"],
       },
     },
   },
