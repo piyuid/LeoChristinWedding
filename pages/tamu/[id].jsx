@@ -6,12 +6,15 @@
 import Head from "next/head"
 import Script from "next/script"
 import FlipCountdown from '@rumess/react-flip-countdown';
-import Pickerbcaleo from "../components/Pickerbcaleo";
-import Pickerbcachristin from "../components/Pickerbcachristin";
-import Pickerbnichristin from "../components/Pickerbnichristin";
-import Tamu from "./tamu/[ID]";
+import Pickerbcaleo from "../../components/Pickerbcaleo";
+import Pickerbcachristin from "../../components/Pickerbcachristin";
+import Pickerbnichristin from "../../components/Pickerbnichristin";
+import { useRouter } from 'next/router'
 
-export default function Home() {
+const Tamu = () => {
+  const router = useRouter()
+  const { id } = router.query
+
   return (
     <div className="relative">
       <div className="relative lg:fixed lg:w-7/12 min-h-screen sm:w-full inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin1.jpg)` }}>
@@ -64,8 +67,7 @@ export default function Home() {
           <h1 className="text-4xl mb-12 font-Alice">You are Invited !</h1>
           <h2 className="text-2xl mb-12 font-Alice">The Wedding of</h2>
           <h1 className="text-4xl md:text-6xl mb-52 font-Greatvibes">Leo & Christin</h1>
-          <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">Nama Tamu
-          <Tamu /></h1>
+          <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">{id}</h1>
         </div>
 
         {/* Ayat Firman Tuhan */}
@@ -373,3 +375,5 @@ export default function Home() {
       </div>
   )
 }
+
+export default Tamu
