@@ -9,7 +9,7 @@ import FlipCountdown from '@rumess/react-flip-countdown';
 import Pickerbcaleo from "../components/Pickerbcaleo";
 import Pickerbcachristin from "../components/Pickerbcachristin";
 import Pickerbnichristin from "../components/Pickerbnichristin";
-import Tamu from "./tamu/[ID]";
+import Tamu from "../pages/tamu/[id]";
 
 export default function Home() {
   return (
