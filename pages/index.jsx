@@ -64,8 +64,9 @@ export default function Home() {
           <h1 className="text-4xl mb-12 font-Alice">You are Invited !</h1>
           <h2 className="text-2xl mb-12 font-Alice">The Wedding of</h2>
           <h1 className="text-4xl md:text-6xl mb-52 font-Greatvibes">Leo & Christin</h1>
-          <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">Nama Tamu
-          <Tamu /></h1>
+          <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">
+            <Tamu />
+          </h1>
         </div>
 
         {/* Ayat Firman Tuhan */}
