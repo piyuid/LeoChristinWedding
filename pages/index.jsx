@@ -48,14 +48,8 @@ export default function Home() {
           ❄
           </div>
         </div>
-        <h1 className="absolute lg:bottom-0 lg:left-0 p-20 text-center text-white text-6xl md:text-8xl font-Greatvibes drop-shadow-xl">Leo &<br /> Christin</h1>
-        <div className="absolute top-0 right-0 lg:p-20 text-white text-8xl font-Greatvibes drop-shadow-xl">
-          <audio
-            autoPlay
-            controls
-            src="../sounds/lee-hi-only.mp3">
-          </audio>
-        </div>
+        <h1 className="absolute lg:bottom-0 lg:left-0 p-20 text-center text-white text-6xl md:text-8xl font-Greatvibes drop-shadow-md">Leo &<br /> Christin</h1>
+        
       </div>
 
       {/* Top Home */}
@@ -63,9 +57,8 @@ export default function Home() {
         <div className="h-screen flex flex-col items-center p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/leochristin2.jpg)` }}>
           <h1 className="text-4xl mb-12 font-Alice">You are Invited !</h1>
           <h2 className="text-2xl mb-12 font-Alice">The Wedding of</h2>
-          <h1 className="text-4xl md:text-6xl mb-52 font-Greatvibes">Leo & Christin</h1>
-          <h1 className="text-4xl mb-5 font-Alice drop-shadow-xl test" id="test">Nama Tamu
-          <Tamu /></h1>
+          <h1 className="text-4xl md:text-6xl mb-52 font-Greatvibes drop-shadow-md">Leo & Christin</h1>
+          <h1 className="text-4xl mb-5 font-Alice drop-shadow-md" id="test">Pak/Bu Yth.</h1>
         </div>
 
         {/* Ayat Firman Tuhan */}
@@ -130,7 +123,7 @@ export default function Home() {
 
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Jam</h3>
           <h3 className="text-green-800 text-center text-2xl font-Oscript">13.00 - 15.00 WIB</h3>
-          <iframe className="mb-10 w-auto h-auto" src="https://www.youtube.com/embed/gDi7zcQsDuA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="mb-10 w-auto" src="https://www.youtube.com/embed/gDi7zcQsDuA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
           <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800" id="resepsi">Resepsi</h1>
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Berlokasi</h3>
@@ -279,7 +272,7 @@ export default function Home() {
         <div className="min-h-max flex items-center flex-col p-10 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(../images/bggift.png)` }}>
           <h1 className="text-4xl md:text-6xl mb-5 font-Satisfy text-green-800" id="saweran">Kirim Hadiah</h1>
           <h2 className="text-green-800 text-center text-2xl font-Alice font-bold">VIA QRIS</h2>
-          <img src="../images/qris.jpg" className="w-1/2 h-auto" alt="Scroll" />
+          <img src="../images/qris.jpg" className="w-3/4 h-auto" alt="Scroll" />
           <h2 className="text-green-800 text-center text-2xl font-Alice font-bold">VIA Banking</h2>
           <Pickerbcaleo />
           <Pickerbcachristin />
