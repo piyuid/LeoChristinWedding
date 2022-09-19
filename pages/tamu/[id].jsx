@@ -138,7 +138,7 @@ const Tamu = () => {
           </a>
 
           <h3 className="text-green-800 text-center text-2xl font-Oscript">Jam</h3>
-          <h3 className="text-green-800 text-center text-2xl font-Oscript">17.00 - 21.00 WIB</h3>
+          <h3 className="text-green-800 text-center text-2xl font-Oscript">18.00 - 21.00 WIB</h3>
 
         </div>
 
