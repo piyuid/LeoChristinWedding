@@ -52,7 +52,21 @@ const Tamu = () => {
           </div>
         </div>
         <h1 className="absolute lg:bottom-0 lg:left-0 p-20 text-center text-white text-6xl md:text-8xl font-Greatvibes drop-shadow-md">Leo &<br /> Christin</h1>
-        
+        <div className="container">
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-DPS707L2XX"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-DPS707L2XX');
+            `}
+          </Script>
+        </div>
       </div>
 
       {/* Top Home */}
