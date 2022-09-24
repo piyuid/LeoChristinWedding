@@ -339,39 +339,39 @@ export default function Home() {
       {/* Navbar bottom */}
       <section id="bottom-navigation" className="block fixed inset-x-0 bottom-0 z-10 bg-red-400 shadow drop-shadow-lg rounded-t-lg">
         <div id="tabs" className="flex justify-between">
-          <a href="#pengantin" className="w-full focus:text-green-500 hover:text-green-500 justify-center inline-block text-center pt-2 pb-1">
+          <a href="#pengantin" className="w-full focus:text-emerald-400 hover:text-emerald-400 justify-center inline-block text-center pt-2 pb-1">
 
             {/* Nav - Home */}
             <img src="../images/home.svg" width="25" height="25" className="inline-block mb-1" alt="Scroll" />
-            <span className="tab tab-home block text-xs">Pengantin</span>
+            <span className="tab tab-home block text-xs text-white">Pengantin</span>
           </a>
           
           {/* Nav - Category */}
-          <a href="#pemberkatan" className="w-full focus:text-green-500 hover:text-green-500 justify-center inline-block text-center pt-2 pb-1">
+          <a href="#pemberkatan" className="w-full focus:text-emerald-400 hover:text-emerald-400 justify-center inline-block text-center pt-2 pb-1">
             
             <img src="../images/church.svg" width="25" height="25" className="inline-block mb-1" alt="Scroll" />
-            <span className="tab tab-kategori block text-xs">Pemberkatan</span>
+            <span className="tab tab-kategori block text-xs text-white">Pemberkatan</span>
           </a>
           
           {/* Nav - Explore */}
-          <a href="#resepsi" className="w-full focus:text-green-500 hover:text-green-500 justify-center inline-block text-center pt-2 pb-1">
+          <a href="#resepsi" className="w-full focus:text-emerald-400 hover:text-emerald-400 justify-center inline-block text-center pt-2 pb-1">
 
             <img src="../images/location.svg" width="25" height="25" className="inline-block mb-1" alt="Scroll" />
-            <span className="tab tab-explore block text-xs">Resepsi</span>
+            <span className="tab tab-explore block text-xs text-white">Resepsi</span>
           </a>
           
           {/* Nav - Wishlist */}
-          <a href="#saweran" className="w-full focus:text-green-800 hover:text-green-800 justify-center inline-block text-center pt-2 pb-1">
+          <a href="#saweran" className="w-full focus:text-emerald-400 hover:text-emerald-400 justify-center inline-block text-center pt-2 pb-1">
             
             <img src="../images/donation.svg" width="25" height="25" className="inline-block mb-1" alt="Scroll" />
-            <span className="tab tab-whishlist block text-xs">Saweran</span>
+            <span className="tab tab-whishlist block text-xs text-white">Saweran</span>
           </a>
           
           {/* Nav - Account */}
-          <a href="#rsvpdong" className="w-full focus:text-green-800 hover:text-green-800 justify-center inline-block text-center pt-2 pb-1">
+          <a href="#rsvpdong" className="w-full focus:text-emerald-400 hover:text-emerald-400 justify-center inline-block text-center pt-2 pb-1">
             
-            <img src="../images/rsvp.svg" width="25" height="25" fill="text-green-800" className="inline-block mb-1" alt="Scroll" />
-            <span className="tab tab-account block text-xs">Rsvp</span>
+            <img src="../images/rsvp.svg" width="25" height="25" fill="text-emerald-400" className="inline-block mb-1" alt="Scroll" />
+            <span className="tab tab-account block text-xs text-white">Rsvp</span>
           </a>
         </div>
       </section>
